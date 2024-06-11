@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Background = styled.div`
      background-image: url(${ (props) => props.img});
@@ -21,7 +21,7 @@ export const Background = styled.div`
 
 
 `
-export const container= styled.div`
+export const Container= styled.div`
 
          display: flex;
          justify-content: space-around;
