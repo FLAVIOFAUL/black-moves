@@ -46,6 +46,3 @@ export const ButtonRed = styled.button`
      color: #ffffff;
 }
 `
-
-
-
