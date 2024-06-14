@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Background = styled.div`
      background-image: url(${ (props) => props.img});
@@ -10,7 +10,7 @@ export const Background = styled.div`
      justify-content: center;
 
      &::before {
-        content:"";
+        content:'';
         position: absolute;
         top:0;
         left: 0;

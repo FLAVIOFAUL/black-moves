@@ -1,6 +1,6 @@
 
 
-import Header from "../components/Hearder/Button/Modal";
+import Header from "../components/Hearder/Button";
 import { Outlet } from "react-router-dom";
 function DefaultLayout(){
 

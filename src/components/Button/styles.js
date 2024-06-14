@@ -2,8 +2,8 @@ import styled, { css } from "styled-components"
 
 
 
-const buttonStyles = css`
-           border: 3px solid #ffffff;
+ const buttonStyles = css`
+     border: 3px solid #ffffff;
      background: transparent;
      color: #ffffff;
      border-radius:30px;
@@ -46,3 +46,4 @@ export const ButtonRed = styled.button`
      color: #ffffff;
 }
 `
+

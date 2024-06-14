@@ -9,11 +9,12 @@ import Series from "../containers/Series";
 import DefaultLayout from "../layout/DefaultLayout";
 
 function Router() {
+  
   return (
     <Routes>
       <Route element={<DefaultLayout />}>
         <Route path="/" element={<Home />} /> 
-        <Route path="/home" element={<Home />} />
+        
         <Route path="/filme" element={<Movies />} />
         <Route path="/series" element={<Series />} />
       </Route>
@@ -21,4 +22,4 @@ function Router() {
   );
 }
 
-export default Router;
+export default Router
