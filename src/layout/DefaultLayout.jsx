@@ -1,6 +1,6 @@
 
 
-import Header from "../components/Hearder/Button";
+import Header from "../components/Header";
 import { Outlet } from "react-router-dom";
 function DefaultLayout(){
 
@@ -14,4 +14,4 @@ function DefaultLayout(){
 
 }
 
-       export default DefaultLayout
+ export default DefaultLayout

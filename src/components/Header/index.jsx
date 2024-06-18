@@ -1,4 +1,4 @@
-import Logo from "../src/assets/logo.png"
+import Logo from "../../assets/logo.png"
 
 
 
@@ -10,8 +10,6 @@ function Header(){
 
 
          </div>
-
-
 
      )
 
